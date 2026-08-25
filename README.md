@@ -20,7 +20,7 @@
 
 ## 👨‍💻 About Me
 Welcome! I am **Juzer Tezabwala**, a Power BI Data Analyst and Python Developer focused on building intuitive, business-critical dashboards and developing clean, scalable Python applications. My core expertise includes:
-- **Business Intelligence & Data Visualization**: Designing interactive, multi-page Power BI reports, DAX modeling, KPI tracking, and custom theme development.
+- **Business Intelligence & Financial Analytics**: Designing interactive Power BI reports, DAX modeling, KPI tracking, revenue stream analysis, and customer segmentation.
 - **Python Systems & Database Engineering**: Developing modular Object-Oriented software architectures with relational SQLite database management.
 - **Automation & Scripting**: Building web scrapers, media downloaders, and custom utilities.
 
@@ -30,8 +30,9 @@ Welcome! I am **Juzer Tezabwala**, a Power BI Data Analyst and Python Developer 
 
 | Domain | Project | Core Technologies | Key Highlights & Outcomes |
 | :--- | :--- | :--- | :--- |
-| **Business Intelligence** | [IPL Cricket Analytics Dashboard](./01_Power_BI_and_Business_Intelligence/01_ipl_cricket_analytics/) | `Power BI (.pbix)`, `DAX`, `Theme Generator` | Multi-view executive cricket report covering match overviews, batter strike rates, and bowler economies with custom JSON theme. |
-| **Retail Analytics** | [Supermarket Sales Dashboard](./01_Power_BI_and_Business_Intelligence/02_supermarket_sales_analytics/) | `Power BI (.pbix)`, `Retail KPIs`, `DAX` | Retail analytics dashboard tracking gross revenue, profit margins, branch performance, and customer payment methods. |
+| **Financial BI** | [Credit Card Financial Dashboard](./01_Power_BI_and_Business_Intelligence/04_credit_card_financial_dashboard/) | `Power BI`, `Financial KPIs`, `Segmentation` | Executive banking reports tracking revenue, transaction channels (Swipe, Chip, Online), card tiers, and customer risk. |
+| **Sports BI** | [IPL Cricket Analytics Dashboard](./01_Power_BI_and_Business_Intelligence/01_ipl_cricket_analytics/) | `Power BI (.pbix)`, `DAX`, `Theme Generator` | Multi-view executive cricket report covering match overviews, batter strike rates, and bowler economies with custom JSON theme. |
+| **Retail BI** | [Supermarket Sales Dashboard](./01_Power_BI_and_Business_Intelligence/02_supermarket_sales_analytics/) | `Power BI (.pbix)`, `Retail KPIs`, `DAX` | Retail analytics dashboard tracking gross revenue, profit margins, branch performance, and customer payment methods. |
 | **Sports Analytics** | [Player Performance Dashboard](./01_Power_BI_and_Business_Intelligence/03_player_performance_analytics/) | `Power BI (.pbix)`, `Sports Analytics` | Individual player scorecards, career milestone tracking, and opposition impact indexing. |
 | **Full-Stack Python** | [Enterprise Banking System](./02_Python_Projects_and_Systems/banking_management_system/) | `Python`, `SQLite`, `OOP Architecture` | Multi-tier banking platform (Super Admin, Admin, Employee, Customer) with atomic ledger transactions & loan workflows. |
 | **Automation** | [Automation & Scraping Suite](./02_Python_Projects_and_Systems/automation_and_utilities/) | `yt-dlp`, `bing-image-downloader`, `qrcode` | Production CLI tools for multi-threaded batch image scraping, YouTube video/audio extraction, and custom QR generation. |
@@ -46,7 +47,7 @@ Welcome! I am **Juzer Tezabwala**, a Power BI Data Analyst and Python Developer 
 juzer-portfolio/
 │
 ├── 📁 01_Power_BI_and_Business_Intelligence/
-│   ├── 📁 01_ipl_cricket_analytics/          # IPL Cricket Power BI Suite & Theme Generator
+│   ├── 📁 01_ipl_cricket_analytics/              # IPL Cricket Power BI Suite & Theme Generator
 │   │   ├── ipl_dashboard_data.pbix
 │   │   ├── overview_dashboard.png
 │   │   ├── batters_dashboard.png
@@ -54,37 +55,41 @@ juzer-portfolio/
 │   │   ├── cricket_theme.json
 │   │   ├── theme_converter.py
 │   │   └── README.md
-│   ├── 📁 02_supermarket_sales_analytics/    # Supermarket Retail Sales Performance Dashboard
+│   ├── 📁 02_supermarket_sales_analytics/        # Supermarket Retail Sales Performance Dashboard
 │   │   ├── supermarket_sales_analysis.pbix
 │   │   ├── supermarket_sales_data.csv
 │   │   └── README.md
-│   ├── 📁 03_player_performance_analytics/   # Player Stats & Match Impact Analytics Dashboard
+│   ├── 📁 03_player_performance_analytics/       # Player Stats & Match Impact Analytics Dashboard
 │   │   ├── player_stats.pbix
+│   │   └── README.md
+│   ├── 📁 04_credit_card_financial_dashboard/    # Credit Card Financial & Customer Analytics Dashboard
+│   │   ├── credit_card_transaction_report.pdf
+│   │   ├── credit_card_customer_report.pdf
 │   │   └── README.md
 │   └── README.md
 │
 ├── 📁 02_Python_Projects_and_Systems/
-│   ├── 📁 banking_management_system/         # 3-Tier OOP SQLite Banking Management Application
+│   ├── 📁 banking_management_system/             # 3-Tier OOP SQLite Banking Management Application
 │   │   ├── database.py
 │   │   ├── models.py
 │   │   ├── main.py
 │   │   └── README.md
-│   ├── 📁 automation_and_utilities/          # Web Scraping & Asset Automation Utilities
+│   ├── 📁 automation_and_utilities/              # Web Scraping & Asset Automation Utilities
 │   │   ├── image_downloader.py
 │   │   ├── youtube_downloader.py
 │   │   ├── qr_code_generator.py
 │   │   └── README.md
-│   ├── 📁 data_structures_stacks_and_queues/ # Stack, Queue & Circular Queue Implementations
+│   ├── 📁 data_structures_stacks_and_queues/     # Stack, Queue & Circular Queue Implementations
 │   │   ├── stack_and_queue.py
 │   │   └── README.md
-│   ├── 📁 data_visualization/                # Python Matplotlib & Statistical Visualizations
+│   ├── 📁 data_visualization/                    # Python Matplotlib & Statistical Visualizations
 │   │   ├── statistics_and_visualizations.ipynb
 │   │   └── README.md
 │   └── README.md
 │
-├── .gitignore                                # Comprehensive Git configuration
-├── requirements.txt                          # Consolidated Python dependencies
-└── README.md                                 # Master Portfolio Profile Readme
+├── .gitignore                                    # Comprehensive Git configuration
+├── requirements.txt                              # Consolidated Python dependencies
+└── README.md                                     # Master Portfolio Profile Readme
 ```
 
 ---
@@ -93,7 +98,7 @@ juzer-portfolio/
 
 | Category | Skills & Tools |
 | :--- | :--- |
-| **Business Intelligence** | Microsoft Power BI Desktop, DAX Measures, Power Query, Data Modeling, Custom Themes |
+| **Business Intelligence** | Microsoft Power BI Desktop, DAX Measures, Power Query, Financial Dashboards, Data Modeling, Custom Themes |
 | **Languages** | Python (Advanced), SQL (SQLite, T-SQL, PostgreSQL), Bash |
 | **Data Analysis & Viz** | Pandas, NumPy, Matplotlib, Data Profiling, Outlier Detection |
 | **Software Engineering** | Object-Oriented Programming (OOP), Modular Architecture, CLI Tool Development |
